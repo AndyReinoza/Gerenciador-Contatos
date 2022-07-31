@@ -1,38 +1,58 @@
+:root {
+  --darkBlue: #000244;
+  --darkpurpleBlue: #3d46f2;
+  --smokeWhite: #f2f2f2;
+  --purpleBlue: #797ff2;
+  --black: #000000;
+}
+
+html {
+  background-color: var(--darkBlue);
+}
+
 .App {
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ContactCard {
+  height: 200px;
+  width: 400px;
+  margin: 0 auto;
+  background-color: var(--darkpurpleBlue);
+  border-radius: 10px;
+  color: var(--smokeWhite);
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+  background-color: var(--smokeWhite);
+  color: var(--black);
+  font-size: 16px;
+  margin: 8px;
+  border-style: none;
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ContactCard--ButtonSection {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.MainTitle {
+  color: var(--smokeWhite);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.CreateSection {
+  margin: 20px;
+}
+
+.CreateCardButton {
+  margin: 0 auto;
+  background-color: var(--smokeWhite);
+  color: var(--black);
+  font-size: 18px;
+  border-radius: 10px;
+  border-style: none;
 }
