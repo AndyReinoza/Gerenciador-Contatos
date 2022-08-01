@@ -1,13 +1,47 @@
+
+
+:root {
+  --darkBlue: #000244;
+  --darkpurpleBlue: #3d46f2;
+  --smokeWhite: #f2f2f2;
+  --purpleBlue: #797ff2;
+  --black: #000000;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--darkBlue) !important; 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.contact-img {
+  width: 175px ;
+  height: 175px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.contact-list, .add-contact{
+  padding-top: 10px;
+  background-color: var(--darkBlue);
+}
+
+.contact-search{
+  background-color: var(--darkBlue);
+  color: var(--smokeWhite);
+}
+
+.subtitles{
+  color: black;
+}
+
+.card {
+  margin-top: 15px;
 }

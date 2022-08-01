@@ -1,0 +1,25 @@
+{
+  "contatos": [
+    {
+      "id": 1,
+      "nome": "John Doe",
+      "foto": "https://i.pinimg.com/736x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg",
+      "email": "john@doe.email",
+      "telefone": "1111-1111"
+    },
+    {
+      "id": 2,
+      "nome": "Foo Bar",
+      "foto": "https://toppng.com/uploads/preview/icons-logos-emojis-user-icon-png-transparent-11563566676e32kbvynug.png",
+      "email": "Foo@doe.email",
+      "telefone": "2222-2222"
+    },
+    {
+      "id": 3,
+      "nome": "Alice",
+      "foto": "https://cdn-icons-png.flaticon.com/512/219/219969.png",
+      "email": "Alice@doe.email",
+      "telefone": "3333-3333"
+    }
+  ]
+}

@@ -6,6 +6,8 @@ import ContactList from "./components/contacts/ContactList/ContactList.jsx"
 import AddContact from "./components/contacts/AddContact/AddContact.jsx"
 import ViewContact from "./components/contacts/ViewContact/ViewContact.jsx"
 import EditContact from "./components/contacts/EditContact/EditContact"
+import Spinner from "./components/Spinner/Spinner";
+
 
 
 function App() {
